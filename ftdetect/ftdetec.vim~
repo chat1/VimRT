@@ -1,0 +1,4 @@
+"au BufRead,BufNewFile *.sv set filetype=systemverilog"au BufRead,BufNewFile *.v set filetype=systemverilog
+au BufNewFile *.sv set filetype=systemverilog
+au BufRead,BufReadPre *.sv set filetype=systemverilog
+
