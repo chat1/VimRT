@@ -40,6 +40,7 @@ hi SpecialKey term=bold ctermfg=DarkBlue guifg=Blue
 hi Title term=bold ctermfg=DarkMagenta gui=bold guifg=Magenta
 hi WarningMsg term=standout ctermfg=DarkRed guifg=Red
 hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
+hi Pmenu term=standout ctermbg=Yellow ctermfg=Black
 hi Folded term=standout ctermbg=Grey ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
 hi FoldColumn term=standout ctermbg=Grey ctermfg=DarkBlue guibg=Grey guifg=DarkBlue
 hi DiffAdd term=bold ctermbg=LightBlue guibg=LightBlue
@@ -51,5 +52,5 @@ hi Special term=bold ctermfg=DarkMagenta guifg=Blue guibg=grey
 hi Statement cterm=bold ctermfg=Blue
 hi Ignore ctermfg=LightGrey guifg=grey
 hi keyword cterm=bold ctermfg=Blue
-
+hi Title ctermfg=Black ctermbg=LightGrey
 " vim: sw=2
